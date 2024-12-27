@@ -3,14 +3,14 @@ pandas
 numpy
 pymongo
 certifi
-pymongo[srv]
+# pymongo[srv]
 scikit-learn
-mlflow
-pyaml
-dagshub
-fastapi
-uvicorn
-python-multipart
+# mlflow
+# pyaml
+# dagshub
+# fastapi
+# uvicorn
+# python-multipart
 
 
 ##-e .
