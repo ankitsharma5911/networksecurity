@@ -1,5 +1,6 @@
 
 from pymongo.mongo_client import MongoClient
+from networksecurity.logger import logging
 
 uri = "mongodb+srv://ankit:ankit@cluster0.0n6et.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -10,5 +11,6 @@ client = MongoClient(uri)
 try:
     client.admin.command('ping')
     print("Pinged your deployment. You successfully connected to MongoDB!")
+    logging.INFO("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
