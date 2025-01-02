@@ -106,7 +106,7 @@ class ModelTrainer:
             "Logistic Regression":{},
             "AdaBoost":{
                 'learning_rate':[.01,.001],
-                'n_estimators': [16,32,64,128]
+                'n_estimators': [32,64,128]
             }
             }
         
