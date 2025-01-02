@@ -1,10 +1,5 @@
 from networksecurity.logger import logging
 from networksecurity.exception import NetworkSecurityException
-
-import os
-import sys
-
-
 from networksecurity.entity.artifact_entity import DataTransformationArtifact,ModelTrainerArtifact
 from networksecurity.entity.config_entity import ModelTrainerConfig
 
@@ -27,6 +22,8 @@ import mlflow
 from urllib.parse import urlparse
 import dagshub
 from dotenv import load_dotenv
+import os ,sys 
+
 load_dotenv()
 
 dagshub.init(repo_owner='ankitsharma5911', repo_name='networksecurity', mlflow=True)
