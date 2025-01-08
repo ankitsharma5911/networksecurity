@@ -50,7 +50,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-
+aws
+awscliv2.zip
 # Translations
 *.mo
 *.pot
